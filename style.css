@@ -177,7 +177,7 @@ footer img {
 
 
 /* max-width pour faibles résolutions */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1080px) {
     h1 {
         letter-spacing: 0;
         margin-bottom: 30px;
