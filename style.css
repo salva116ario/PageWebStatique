@@ -164,7 +164,7 @@ footer img {
     padding-left: 50px;
 }
 /* min-width pour moyennes résolutions */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1080px) {
     section {
         width:70%;
         clear:none;
