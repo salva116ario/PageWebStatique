@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<title>Site Web Statique</title>
+<meta charset="utf-8">
+<link href="./style.css" rel="stylesheet" />
+<base target="_blank">
+</head>
+
+<body>
+  <header><img src="./banner.jpg" alt="" /></header>
+
+    <nav>
+        <ul>
+            <li><a href="./index.html">LINUX</a></li>
+            <li><a href="./html.html">HTML/CSS</a></li>
+            <li><a href="./java.html">JAVA</a></li>
+            <li><a href="./angular.html">ANGULAR</a></li>
+            <li><a href="./divers.html">DIVERS</a></li>
+        </ul>
+    </nav>
+
+    <h1>#linux</h1>
+    <section>
+
+        <article>
+        <h2># grub : booter par défaut sur Windows</h2>
+        <div class="codebox"><pre><code>sudo mv /etc/grub.d/30_os-prober /etc/grub.d/06_os-prober <br>sudo update-grub</code></pre></div>
+        <p>Pour un paramétrage complet de grub2 : <a href="https://doc.ubuntu-fr.org/tutoriel/grub2_parametrage_manuel">#WIKI UBUNTU.FR</a></p>
+      </article>
+
+      <article>
+        <h2># sdkman!</h2>
+        <p>Install the latest stable version of your SDK of choice (say, Java JDK) by running the following command:</p>
+          <div class="codebox"><pre><code>$ sdk install java</pre></code></div>
+        <p>Comment l'utiliser : <a href="https://sdkman.io/usage">#SDKMAN USAGE</a></p>
+
+      </article>
+
+      <article>
+        <h2># restaurer le réglage de la luminosité</h2>
+        <p>Installer le paquet acpi-support qui permet de :</p>
+        <p>- détecter la connexion ou la déconnexion du secteur, la fermeture
+   d'un portable et la gestion de nombreux boutons spécifiques (sur les
+   portables Asus, Lenovo, Panasonic, Sony et Toshiba)</p>
+   <p>
+ - suspendre, mettre en veille prolongée et redémarrer l'ordinateur,
+   éventuellement avec les contournements indispensables à certains
+   matériels</p>
+ <p>- modifier la luminosité de l'écran sur certains ordinateurs portables.</p>
+
+        <p>Download : <a href="https://packages.debian.org/stretch/acpi-support">#packages.debian.org</a></p>
+
+      </article>
+
+    </section>
+
+
+    <aside>
+      <img src="./logo_grub.png" alt="" />
+        <img src="./logo_sdk.png" alt="" />
+        <img src="https://cdn6.aptoide.com/imgs/9/e/3/9e360547341ecc2cd84f054f64c7ceb1_icon.png?w=240" alt="" />
+        <img src="./logo_debian.png" alt="" />
+    </aside>
+
+    <footer>
+    <p><a href="https://www.paris.fr/"><img src="./nepasjeter.png" alt="" /></a>NE PAS JETER SUR LA VOIE PUBLIQUE<br>&copy;SIMPLET.CO / FABRIQUE DE VAINQUEURS</p>
+    <div class="reseaux">
+    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script type="text/javascript" src="http://platform.linkedin.com/in.js"></script>
+    <script type="in/share" data-counter="top"></script>
+    <a href="https://gulli.fr" target="_blank"><img src="https://cdn6.aptoide.com/imgs/9/e/3/9e360547341ecc2cd84f054f64c7ceb1_icon.png?w=240" alt="" height="30px"/></a>
+    <a href="https://www.thoiry.net/"><img src="./rhino.png" alt="" /></a>
+    </div>
+
+</footer>
+</body>
+</html>
