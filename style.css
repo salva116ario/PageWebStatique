@@ -173,11 +173,15 @@ footer img {
         width:30%;
         clear:none;
     }
+    
 }
 
 
 /* max-width pour faibles résolutions */
 @media screen and (max-width: 1080px) {
+    * {
+        font-size: 1.2em;
+    }
     h1 {
         letter-spacing: 0;
         margin-bottom: 30px;
